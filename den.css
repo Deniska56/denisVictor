@@ -1,0 +1,56 @@
+body{
+    margin:0;
+    display:flex;
+    font-size:25px;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    height: 100vh;
+    background-image: url('https://data.textstudio.com/output/sample/animated/8/2/6/5/questions-3-5628.gif');
+    background-size: 100% 50%;
+   }
+  .abc{
+    display:flex;
+    background: blue;
+  gap:50px;
+    flex-wrap:wrap;
+    justify-content:center;
+    position:absolute;
+    bottom:0;
+  padding:20px;
+    box-sizing: border-box;
+  }
+  .letter{
+    box-sizing: border-box;
+    color:black;
+    display:flex;
+    border:1px solid black;
+    background:pink;
+    width: 50px;
+    height: 50px;
+    justify-content:center;
+    align-items:center;
+    cursor: pointer
+  }
+  .letter:hover{
+    color: red;
+    border: 2px solid red;
+  }
+  .a *{
+     border:1px solid black;
+    width: 60px;
+    height: 70px;
+  }
+  .a{
+    display:flex;
+    gap:20px;
+  }
+  .a p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: yellow;
+  }
+    .q{
+     color: red;
+    }
